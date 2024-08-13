@@ -1,0 +1,58 @@
+/*-- scss:defaults --*/
+
+// Import fonts from Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap');
+
+// Define font variables
+$ibm-plex-sans: 'IBM Plex Sans', sans-serif;
+$font-family-sans-serif: $ibm-plex-sans;
+$presentation-heading-font: $ibm-plex-sans;
+
+// Update font size for Header 1
+$presentation-h1-font-size: 2em;
+
+// Define color variables
+$tiger: #B45F06;
+$mustard: #BF9000;
+$moss: #444E21;
+$vanilla: #F8F5E1;
+$white: #FFFFFF;
+
+// Set background and text colors
+$body-bg: $moss;
+$body-color: $white;
+$link-color: $white;
+
+/*-- scss:rules --*/
+
+// Set blockquote text color
+.reveal section blockquote {
+  color: $white;
+}
+
+// Set blockquote vertical line color
+.reveal blockquote {
+  border-left-color: $white;
+}
+
+// Set caption text color
+.reveal .slide aside {
+  color: $white;
+}
+
+// Set paragraph line height
+.reveal p {
+  line-height: 1.1;
+}
+
+// Set footer position
+/* .reveal .footer {
+  font-size: 0.4em !important;
+  text-align: right !important;
+}
+
+// Set footer paragraph font and color
+.reveal .footer p {
+  color: $mustard !important;
+  margin-right: 1em !important;
+} */
