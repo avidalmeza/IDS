@@ -1,6 +1,6 @@
 ---
-title: 'Indigenous Data Sovereignty in Ecology and Environmental Science'
-author: 'Alessandra Vidal Meza'
+title: "Indigenous Data Sovereignty in Ecology and Environmental Science"
+author: "Alessandra Vidal Meza"
 bibliography: src/references.bib 
 csl: src/diabetologia.csl
 format:
